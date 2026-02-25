@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/zjp/code/cpp-prj/repo-parallel101/02/01/build",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/o8.dir/8.cpp.o -c /home/zjp/code/cpp-prj/repo-parallel101/02/01/8.cpp",
+  "file": "/home/zjp/code/cpp-prj/repo-parallel101/02/01/8.cpp"
+},
+{
+  "directory": "/home/zjp/code/cpp-prj/repo-parallel101/02/01/build",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/o9.dir/9.cpp.o -c /home/zjp/code/cpp-prj/repo-parallel101/02/01/9.cpp",
+  "file": "/home/zjp/code/cpp-prj/repo-parallel101/02/01/9.cpp"
+}
+]

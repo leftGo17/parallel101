@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/12-include-dir-glm/build",
+  "command": "/usr/bin/c++  -I/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/12-include-dir-glm/glm/include  -o CMakeFiles/a.out.dir/main.cpp.o -c /home/zjp/code/cpp-prj/repo-parallel101/01-cmake/12-include-dir-glm/main.cpp",
+  "file": "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/12-include-dir-glm/main.cpp"
+}
+]

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/zjp/code/cpp-prj/repo-parallel101/08-gpu/00_hello/01-env/build",
+  "command": "/usr/local/cuda-12.8/bin/nvcc -forward-unknown-to-host-compiler   -O3 -DNDEBUG -x cu -c /home/zjp/code/cpp-prj/repo-parallel101/08-gpu/00_hello/01-env/main.cu -o CMakeFiles/main.dir/main.cu.o",
+  "file": "/home/zjp/code/cpp-prj/repo-parallel101/08-gpu/00_hello/01-env/main.cu"
+}
+]

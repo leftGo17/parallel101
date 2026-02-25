@@ -1,0 +1,42 @@
+	.file	"main.cpp"
+# GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+#	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+# GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+# options passed: -mtune=generic -march=x86-64 -O3 -fomit-frame-pointer -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection
+	.text
+	.p2align 4
+	.globl	_Z4funcPii
+	.type	_Z4funcPii, @function
+_Z4funcPii:
+.LFB0:
+	.cfi_startproc
+	endbr64	
+# main.cpp:2:     return a[b];
+	movslq	%esi, %rsi	# tmp92, b
+# main.cpp:2:     return a[b];
+# 以 %rdi + %rsi * 4为地址去寻找数，值给%eax
+	movl	(%rdi,%rsi,4), %eax	# *_3, *_3
+# main.cpp:3: }
+	ret	
+	.cfi_endproc
+.LFE0:
+	.size	_Z4funcPii, .-_Z4funcPii
+	.ident	"GCC: (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0"
+	.section	.note.GNU-stack,"",@progbits
+	.section	.note.gnu.property,"a"
+	.align 8
+	.long	1f - 0f
+	.long	4f - 1f
+	.long	5
+0:
+	.string	"GNU"
+1:
+	.align 8
+	.long	0xc0000002
+	.long	3f - 2f
+2:
+	.long	0x3
+3:
+	.align 8
+4:

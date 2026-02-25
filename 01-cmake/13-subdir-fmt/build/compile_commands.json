@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/build",
+  "command": "/usr/bin/c++  -I/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/fmt/include  -o CMakeFiles/a.out.dir/main.cpp.o -c /home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/main.cpp",
+  "file": "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/main.cpp"
+},
+{
+  "directory": "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/build/fmt",
+  "command": "/usr/bin/c++  -I/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/fmt/include  -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/fmt/src/format.cc",
+  "file": "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/fmt/src/format.cc"
+},
+{
+  "directory": "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/build/fmt",
+  "command": "/usr/bin/c++  -I/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/fmt/include  -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/fmt/src/os.cc",
+  "file": "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/fmt/src/os.cc"
+}
+]

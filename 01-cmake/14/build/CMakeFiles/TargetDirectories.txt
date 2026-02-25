@@ -1,0 +1,3 @@
+/home/zjp/code/cpp-prj/parallel101/01/14/build/CMakeFiles/a.out.dir
+/home/zjp/code/cpp-prj/parallel101/01/14/build/CMakeFiles/edit_cache.dir
+/home/zjp/code/cpp-prj/parallel101/01/14/build/CMakeFiles/rebuild_cache.dir
