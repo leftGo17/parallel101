@@ -1,4 +1,2 @@
-int main() {
-    // float g, a = 2.5 * g;
-    int a = (b = 2);
-}
+#include <stdio.h>
+int main() { printf("hello world\n"); }
