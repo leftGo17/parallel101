@@ -8,11 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/11-subdir-hello/hellolib/hello.cpp" "hellolib/CMakeFiles/hellolib.dir/hello.cpp.o" "gcc" "hellolib/CMakeFiles/hellolib.dir/hello.cpp.o.d"
+  "/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/hellolib/hello.cpp" "hellolib/CMakeFiles/hellolib.dir/hello.cpp.o" "gcc" "hellolib/CMakeFiles/hellolib.dir/hello.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

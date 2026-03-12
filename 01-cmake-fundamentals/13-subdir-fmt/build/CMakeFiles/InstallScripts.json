@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/13-subdir-fmt/build/cmake_install.cmake",
+		"/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/13-subdir-fmt/build/fmt/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

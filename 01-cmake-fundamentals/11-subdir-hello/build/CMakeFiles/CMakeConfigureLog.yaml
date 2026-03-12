@@ -1,0 +1,1384 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/uname"
+      - "/home/linuxbrew/.linuxbrew/sbin/uname"
+      - "/home/zjp/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.17.0-14-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/gmake"
+      - "/home/linuxbrew/.linuxbrew/sbin/gmake"
+      - "/home/zjp/.local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/linuxbrew/.linuxbrew/bin/g++-15"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/linuxbrew/.linuxbrew/bin/g++-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/"
+    found: "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/linuxbrew/.linuxbrew/bin/g++-15 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar-15"
+      - "ar"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/ar-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/ar-15"
+      - "/home/zjp/.local/bin/ar-15"
+      - "/usr/local/sbin/ar-15"
+      - "/usr/local/bin/ar-15"
+      - "/usr/sbin/ar-15"
+      - "/usr/bin/ar-15"
+      - "/sbin/ar-15"
+      - "/bin/ar-15"
+      - "/usr/games/ar-15"
+      - "/usr/local/games/ar-15"
+      - "/snap/bin/ar-15"
+      - "/home/linuxbrew/.linuxbrew/bin/ar"
+      - "/home/linuxbrew/.linuxbrew/sbin/ar"
+      - "/home/zjp/.local/bin/ar"
+      - "/usr/local/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/usr/sbin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib-15"
+      - "ranlib"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/ranlib-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/ranlib-15"
+      - "/home/zjp/.local/bin/ranlib-15"
+      - "/usr/local/sbin/ranlib-15"
+      - "/usr/local/bin/ranlib-15"
+      - "/usr/sbin/ranlib-15"
+      - "/usr/bin/ranlib-15"
+      - "/sbin/ranlib-15"
+      - "/bin/ranlib-15"
+      - "/usr/games/ranlib-15"
+      - "/usr/local/games/ranlib-15"
+      - "/snap/bin/ranlib-15"
+      - "/home/linuxbrew/.linuxbrew/bin/ranlib"
+      - "/home/linuxbrew/.linuxbrew/sbin/ranlib"
+      - "/home/zjp/.local/bin/ranlib"
+      - "/usr/local/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/usr/sbin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip-15"
+      - "strip"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/strip-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/strip-15"
+      - "/home/zjp/.local/bin/strip-15"
+      - "/usr/local/sbin/strip-15"
+      - "/usr/local/bin/strip-15"
+      - "/usr/sbin/strip-15"
+      - "/usr/bin/strip-15"
+      - "/sbin/strip-15"
+      - "/bin/strip-15"
+      - "/usr/games/strip-15"
+      - "/usr/local/games/strip-15"
+      - "/snap/bin/strip-15"
+      - "/home/linuxbrew/.linuxbrew/bin/strip"
+      - "/home/linuxbrew/.linuxbrew/sbin/strip"
+      - "/home/zjp/.local/bin/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/usr/sbin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld-15"
+      - "ld"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/ld-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/ld-15"
+      - "/home/zjp/.local/bin/ld-15"
+      - "/usr/local/sbin/ld-15"
+      - "/usr/local/bin/ld-15"
+      - "/usr/sbin/ld-15"
+      - "/usr/bin/ld-15"
+      - "/sbin/ld-15"
+      - "/bin/ld-15"
+      - "/usr/games/ld-15"
+      - "/usr/local/games/ld-15"
+      - "/snap/bin/ld-15"
+      - "/home/linuxbrew/.linuxbrew/bin/ld"
+      - "/home/linuxbrew/.linuxbrew/sbin/ld"
+      - "/home/zjp/.local/bin/ld"
+      - "/usr/local/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/usr/sbin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm-15"
+      - "nm"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/nm-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/nm-15"
+      - "/home/zjp/.local/bin/nm-15"
+      - "/usr/local/sbin/nm-15"
+      - "/usr/local/bin/nm-15"
+      - "/usr/sbin/nm-15"
+      - "/usr/bin/nm-15"
+      - "/sbin/nm-15"
+      - "/bin/nm-15"
+      - "/usr/games/nm-15"
+      - "/usr/local/games/nm-15"
+      - "/snap/bin/nm-15"
+      - "/home/linuxbrew/.linuxbrew/bin/nm"
+      - "/home/linuxbrew/.linuxbrew/sbin/nm"
+      - "/home/zjp/.local/bin/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/usr/sbin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump-15"
+      - "objdump"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/objdump-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/objdump-15"
+      - "/home/zjp/.local/bin/objdump-15"
+      - "/usr/local/sbin/objdump-15"
+      - "/usr/local/bin/objdump-15"
+      - "/usr/sbin/objdump-15"
+      - "/usr/bin/objdump-15"
+      - "/sbin/objdump-15"
+      - "/bin/objdump-15"
+      - "/usr/games/objdump-15"
+      - "/usr/local/games/objdump-15"
+      - "/snap/bin/objdump-15"
+      - "/home/linuxbrew/.linuxbrew/bin/objdump"
+      - "/home/linuxbrew/.linuxbrew/sbin/objdump"
+      - "/home/zjp/.local/bin/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/usr/sbin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy-15"
+      - "objcopy"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/objcopy-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/objcopy-15"
+      - "/home/zjp/.local/bin/objcopy-15"
+      - "/usr/local/sbin/objcopy-15"
+      - "/usr/local/bin/objcopy-15"
+      - "/usr/sbin/objcopy-15"
+      - "/usr/bin/objcopy-15"
+      - "/sbin/objcopy-15"
+      - "/bin/objcopy-15"
+      - "/usr/games/objcopy-15"
+      - "/usr/local/games/objcopy-15"
+      - "/snap/bin/objcopy-15"
+      - "/home/linuxbrew/.linuxbrew/bin/objcopy"
+      - "/home/linuxbrew/.linuxbrew/sbin/objcopy"
+      - "/home/zjp/.local/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/sbin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf-15"
+      - "readelf"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/readelf-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/readelf-15"
+      - "/home/zjp/.local/bin/readelf-15"
+      - "/usr/local/sbin/readelf-15"
+      - "/usr/local/bin/readelf-15"
+      - "/usr/sbin/readelf-15"
+      - "/usr/bin/readelf-15"
+      - "/sbin/readelf-15"
+      - "/bin/readelf-15"
+      - "/usr/games/readelf-15"
+      - "/usr/local/games/readelf-15"
+      - "/snap/bin/readelf-15"
+      - "/home/linuxbrew/.linuxbrew/bin/readelf"
+      - "/home/linuxbrew/.linuxbrew/sbin/readelf"
+      - "/home/zjp/.local/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool-15"
+      - "dlltool"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/dlltool-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/dlltool-15"
+      - "/home/zjp/.local/bin/dlltool-15"
+      - "/usr/local/sbin/dlltool-15"
+      - "/usr/local/bin/dlltool-15"
+      - "/usr/sbin/dlltool-15"
+      - "/usr/bin/dlltool-15"
+      - "/sbin/dlltool-15"
+      - "/bin/dlltool-15"
+      - "/usr/games/dlltool-15"
+      - "/usr/local/games/dlltool-15"
+      - "/snap/bin/dlltool-15"
+      - "/home/linuxbrew/.linuxbrew/bin/dlltool"
+      - "/home/linuxbrew/.linuxbrew/sbin/dlltool"
+      - "/home/zjp/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line-15"
+      - "addr2line"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/addr2line-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/addr2line-15"
+      - "/home/zjp/.local/bin/addr2line-15"
+      - "/usr/local/sbin/addr2line-15"
+      - "/usr/local/bin/addr2line-15"
+      - "/usr/sbin/addr2line-15"
+      - "/usr/bin/addr2line-15"
+      - "/sbin/addr2line-15"
+      - "/bin/addr2line-15"
+      - "/usr/games/addr2line-15"
+      - "/usr/local/games/addr2line-15"
+      - "/snap/bin/addr2line-15"
+      - "/home/linuxbrew/.linuxbrew/bin/addr2line"
+      - "/home/linuxbrew/.linuxbrew/sbin/addr2line"
+      - "/home/zjp/.local/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi-15"
+      - "tapi"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/tapi-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/tapi-15"
+      - "/home/zjp/.local/bin/tapi-15"
+      - "/usr/local/sbin/tapi-15"
+      - "/usr/local/bin/tapi-15"
+      - "/usr/sbin/tapi-15"
+      - "/usr/bin/tapi-15"
+      - "/sbin/tapi-15"
+      - "/bin/tapi-15"
+      - "/usr/games/tapi-15"
+      - "/usr/local/games/tapi-15"
+      - "/snap/bin/tapi-15"
+      - "/home/linuxbrew/.linuxbrew/bin/tapi"
+      - "/home/linuxbrew/.linuxbrew/sbin/tapi"
+      - "/home/zjp/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar-15.2"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar-15.2"
+      - "/home/zjp/.local/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/usr/games/gcc-ar-15.2"
+      - "/usr/local/games/gcc-ar-15.2"
+      - "/snap/bin/gcc-ar-15.2"
+    found: "/home/linuxbrew/.linuxbrew/bin/gcc-ar-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/zjp/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-15.2"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib-15.2"
+      - "/home/zjp/.local/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/usr/games/gcc-ranlib-15.2"
+      - "/usr/local/games/gcc-ranlib-15.2"
+      - "/snap/bin/gcc-ranlib-15.2"
+    found: "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/zjp/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/CMakeScratch/TryCompile-Vfflep"
+      binary: "/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/CMakeScratch/TryCompile-Vfflep"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/CMakeScratch/TryCompile-Vfflep'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ebdd6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ebdd6.dir/build.make CMakeFiles/cmTC_ebdd6.dir/build
+        gmake[1]: Entering directory '/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/CMakeScratch/TryCompile-Vfflep'
+        Building CXX object CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o
+        /home/linuxbrew/.linuxbrew/bin/g++-15   -v -o CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-15
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-15 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Homebrew GCC 15.2.0_1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebdd6.dir/'
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/ -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ebdd6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccDyRB0r.s
+        GNU C++17 (Homebrew GCC 15.2.0_1) version 15.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/x86_64-pc-linux-gnu"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/backward"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed/x86_64-linux-gnu"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/x86_64-pc-linux-gnu
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/backward
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed/x86_64-linux-gnu
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed
+         /usr/local/include
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 3bd3fb3e58763fe7544fc75eb157cd87
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebdd6.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDyRB0r.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/
+        LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ebdd6
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebdd6.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-15
+        COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-15 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Homebrew GCC 15.2.0_1) 
+        COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/
+        LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ebdd6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ebdd6.'
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvoCcgB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ebdd6 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../.. -L/lib/x86_64-linux-gnu -L/lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib -v CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        collect2 version 15.2.0
+        /usr/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvoCcgB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ebdd6 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../.. -L/lib/x86_64-linux-gnu -L/lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib -v CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ebdd6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ebdd6.'
+        /home/linuxbrew/.linuxbrew/bin/g++-15  -v -Wl,-v CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ebdd6
+        gmake[1]: Leaving directory '/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/CMakeScratch/TryCompile-Vfflep'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/x86_64-pc-linux-gnu]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/backward]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed/x86_64-linux-gnu]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed]
+          add: [/usr/local/include]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/include/c++/15]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/x86_64-pc-linux-gnu] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/include/c++/15/x86_64-pc-linux-gnu]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/backward] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/include/c++/15/backward]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed/x86_64-linux-gnu] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed/x86_64-linux-gnu]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../include] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/include/c++/15;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/include/c++/15/x86_64-pc-linux-gnu;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/include/c++/15/backward;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed/x86_64-linux-gnu;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed;/usr/local/include;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/CMakeScratch/TryCompile-Vfflep']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ebdd6/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ebdd6.dir/build.make CMakeFiles/cmTC_ebdd6.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/CMakeScratch/TryCompile-Vfflep']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/g++-15   -v -o CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-15]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-15 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Homebrew GCC 15.2.0_1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebdd6.dir/']
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/ -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ebdd6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccDyRB0r.s]
+        ignore line: [GNU C++17 (Homebrew GCC 15.2.0_1) version 15.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/x86_64-pc-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/backward"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/x86_64-pc-linux-gnu]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../../../../include/c++/15/backward]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed/x86_64-linux-gnu]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/include-fixed]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/../../../../include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3bd3fb3e58763fe7544fc75eb157cd87]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebdd6.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDyRB0r.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ebdd6]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebdd6.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-15]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-15 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0_1' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Homebrew GCC 15.2.0_1) ]
+        ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ebdd6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ebdd6.']
+        link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvoCcgB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ebdd6 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../.. -L/lib/x86_64-linux-gnu -L/lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib -v CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccvoCcgB.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ebdd6] ==> ignore
+          arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtbeginS.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtbeginS.o]
+          arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15]
+          arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc]
+          arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../..] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../..]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtendS.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtendS.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/usr/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../libexec/gcc/x86_64-pc-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvoCcgB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ebdd6 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../.. -L/lib/x86_64-linux-gnu -L/lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib -v CMakeFiles/cmTC_ebdd6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtbeginS.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtbeginS.o]
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtendS.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtendS.o]
+        collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15]
+        collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc]
+        collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/../../..] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtbeginS.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc/x86_64-pc-linux-gnu/15;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current/gcc;/home/linuxbrew/.linuxbrew/Cellar/gcc/15.2.0_1/lib/gcc/current;/lib/x86_64-linux-gnu;/lib;/usr/lib/x86_64-linux-gnu;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+...

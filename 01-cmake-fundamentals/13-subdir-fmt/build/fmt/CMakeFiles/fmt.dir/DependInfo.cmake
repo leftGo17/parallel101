@@ -8,12 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/fmt/src/format.cc" "fmt/CMakeFiles/fmt.dir/src/format.cc.o" "gcc" "fmt/CMakeFiles/fmt.dir/src/format.cc.o.d"
-  "/home/zjp/code/cpp-prj/repo-parallel101/01-cmake/13-subdir-fmt/fmt/src/os.cc" "fmt/CMakeFiles/fmt.dir/src/os.cc.o" "gcc" "fmt/CMakeFiles/fmt.dir/src/os.cc.o.d"
+  "/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/13-subdir-fmt/fmt/src/format.cc" "fmt/CMakeFiles/fmt.dir/src/format.cc.o" "gcc" "fmt/CMakeFiles/fmt.dir/src/format.cc.o.d"
+  "/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/13-subdir-fmt/fmt/src/os.cc" "fmt/CMakeFiles/fmt.dir/src/os.cc.o" "gcc" "fmt/CMakeFiles/fmt.dir/src/os.cc.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

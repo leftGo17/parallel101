@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/cmake_install.cmake",
+		"/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
