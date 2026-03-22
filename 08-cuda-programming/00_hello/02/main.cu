@@ -1,8 +1,6 @@
 #include <cstdio>
 
-__global__ void kernel() {
-    printf("Hello, world!\n");
-}
+__global__ void kernel() { printf("Hello, world!\n"); }
 
 int main() {
     kernel<<<1, 1>>>();

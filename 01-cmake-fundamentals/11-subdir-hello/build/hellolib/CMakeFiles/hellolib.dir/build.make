@@ -76,15 +76,15 @@ hellolib/CMakeFiles/hellolib.dir/hello.cpp.o: hellolib/CMakeFiles/hellolib.dir/f
 hellolib/CMakeFiles/hellolib.dir/hello.cpp.o: /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/hellolib/hello.cpp
 hellolib/CMakeFiles/hellolib.dir/hello.cpp.o: hellolib/CMakeFiles/hellolib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hellolib/CMakeFiles/hellolib.dir/hello.cpp.o"
-	cd /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib && /home/linuxbrew/.linuxbrew/bin/g++-15 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT hellolib/CMakeFiles/hellolib.dir/hello.cpp.o -MF CMakeFiles/hellolib.dir/hello.cpp.o.d -o CMakeFiles/hellolib.dir/hello.cpp.o -c /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/hellolib/hello.cpp
+	cd /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT hellolib/CMakeFiles/hellolib.dir/hello.cpp.o -MF CMakeFiles/hellolib.dir/hello.cpp.o.d -o CMakeFiles/hellolib.dir/hello.cpp.o -c /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/hellolib/hello.cpp
 
 hellolib/CMakeFiles/hellolib.dir/hello.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hellolib.dir/hello.cpp.i"
-	cd /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib && /home/linuxbrew/.linuxbrew/bin/g++-15 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/hellolib/hello.cpp > CMakeFiles/hellolib.dir/hello.cpp.i
+	cd /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/hellolib/hello.cpp > CMakeFiles/hellolib.dir/hello.cpp.i
 
 hellolib/CMakeFiles/hellolib.dir/hello.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hellolib.dir/hello.cpp.s"
-	cd /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib && /home/linuxbrew/.linuxbrew/bin/g++-15 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/hellolib/hello.cpp -o CMakeFiles/hellolib.dir/hello.cpp.s
+	cd /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/hellolib/hello.cpp -o CMakeFiles/hellolib.dir/hello.cpp.s
 
 # Object files for target hellolib
 hellolib_OBJECTS = \

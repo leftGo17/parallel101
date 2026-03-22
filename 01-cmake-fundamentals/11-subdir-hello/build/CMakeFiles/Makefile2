@@ -63,12 +63,12 @@ CMAKE_BINARY_DIR = /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdi
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/a.out.dir/all
+all: CMakeFiles/hello.out.dir/all
 all: hellolib/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/a.out.dir/codegen
+codegen: CMakeFiles/hello.out.dir/codegen
 codegen: hellolib/codegen
 .PHONY : codegen
 
@@ -77,7 +77,7 @@ preinstall: hellolib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/a.out.dir/clean
+clean: CMakeFiles/hello.out.dir/clean
 clean: hellolib/clean
 .PHONY : clean
 
@@ -101,36 +101,36 @@ hellolib/clean: hellolib/CMakeFiles/hellolib.dir/clean
 .PHONY : hellolib/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/a.out.dir
+# Target rules for target CMakeFiles/hello.out.dir
 
 # All Build rule for target.
-CMakeFiles/a.out.dir/all: hellolib/CMakeFiles/hellolib.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles --progress-num=1,2 "Built target a.out"
-.PHONY : CMakeFiles/a.out.dir/all
+CMakeFiles/hello.out.dir/all: hellolib/CMakeFiles/hellolib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.out.dir/build.make CMakeFiles/hello.out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.out.dir/build.make CMakeFiles/hello.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles --progress-num=1,2 "Built target hello.out"
+.PHONY : CMakeFiles/hello.out.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/a.out.dir/rule: cmake_check_build_system
+CMakeFiles/hello.out.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/a.out.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello.out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles 0
-.PHONY : CMakeFiles/a.out.dir/rule
+.PHONY : CMakeFiles/hello.out.dir/rule
 
 # Convenience name for target.
-a.out: CMakeFiles/a.out.dir/rule
-.PHONY : a.out
+hello.out: CMakeFiles/hello.out.dir/rule
+.PHONY : hello.out
 
 # codegen rule for target.
-CMakeFiles/a.out.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles --progress-num=1,2 "Finished codegen for target a.out"
-.PHONY : CMakeFiles/a.out.dir/codegen
+CMakeFiles/hello.out.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.out.dir/build.make CMakeFiles/hello.out.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles --progress-num=1,2 "Finished codegen for target hello.out"
+.PHONY : CMakeFiles/hello.out.dir/codegen
 
 # clean rule for target.
-CMakeFiles/a.out.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/clean
-.PHONY : CMakeFiles/a.out.dir/clean
+CMakeFiles/hello.out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.out.dir/build.make CMakeFiles/hello.out.dir/clean
+.PHONY : CMakeFiles/hello.out.dir/clean
 
 #=============================================================================
 # Target rules for target hellolib/CMakeFiles/hellolib.dir
