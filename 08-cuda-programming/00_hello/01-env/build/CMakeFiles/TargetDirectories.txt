@@ -1,3 +1,0 @@
-/home/zjp/code/cpp/parallel101/08-cuda-programming/00_hello/01-env/build/CMakeFiles/main.dir
-/home/zjp/code/cpp/parallel101/08-cuda-programming/00_hello/01-env/build/CMakeFiles/edit_cache.dir
-/home/zjp/code/cpp/parallel101/08-cuda-programming/00_hello/01-env/build/CMakeFiles/rebuild_cache.dir

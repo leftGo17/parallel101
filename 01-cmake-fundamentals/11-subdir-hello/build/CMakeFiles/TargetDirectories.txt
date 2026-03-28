@@ -1,6 +1,0 @@
-/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/hello.out.dir
-/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/edit_cache.dir
-/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/CMakeFiles/rebuild_cache.dir
-/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib/CMakeFiles/hellolib.dir
-/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib/CMakeFiles/edit_cache.dir
-/home/zjp/code/cpp/parallel101/01-cmake-fundamentals/11-subdir-hello/build/hellolib/CMakeFiles/rebuild_cache.dir
