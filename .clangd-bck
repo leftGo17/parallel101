@@ -1,0 +1,45 @@
+# =================================================                
+# RTX 5070 (Blackwell) + Homebrew Clangd 优化配置
+# =================================================
+
+CompileFlags:
+  # 1. 剔除 nvcc 专属参数，防止 clangd “看不懂”而报红线
+  Remove:
+    - "-gencode*"          # 移除所有多架构生成指令
+    - "--generate-code*"   # 同上
+    - "-rdc=true"          # 移除可重定位代码标志（补全不需要链接信息）
+    - "-Xcompiler*"        # 移除传给宿主编译器的嵌套参数
+    - "--expt-*"           # 移除 nvcc 的实验性 C++ 特性标志
+    - "-arch=native"       # 防止 clangd 在找不到物理 GPU 时报错
+    - "--options-file"     # 移除外部参数文件引用
+    - "-forward-unknown-to-host-compiler"
+
+  # 2. 注入 Clang 能够理解的参数，开启 5070 算力支持
+  Add: 
+    - "-std=c++20"         # 强制使用 C++20，适配现代 CUDA 开发
+    - "--cuda-gpu-arch=sm_100"  # 关键：指定 Blackwell 架构 (RTX 50)
+    - "-I/usr/local/cuda/include" # 显式包含 CUDA 头文件路径
+    - "-Wno-unknown-cuda-version" # 忽略版本过新导致的误报
+    - "-Wno-unknown-attributes"   # 忽略某些 nvcc 特有的属性警告
+
+  # 3. 指定“大脑”：使用你 Homebrew 安装的高版本 Clang
+  Compiler: /home/linuxbrew/.linuxbrew/bin/clang++
+
+# --- 编辑器功能增强 ---
+
+Index:
+  Background: Build      # 开启后台索引，实现秒开项目和全局搜索
+  StandardLibrary: true  # 索引标准库，方便跳转到 std::vector 等定义
+
+Diagnostics:
+  ClangTidy:
+    Remove: 
+      - bugprone-easily-swappable-parameters
+    Add: 
+      - performance-*
+      - bugprone-*
+InlayHints:              # 开启“代码内联提示”，极其适合调试 Tensor Core 模板
+  Enabled: true
+  ParameterNames: true   # 在函数调用处显示参数名：foo(a: 10, b: 20)
+  DeducedTypes: true     # 显示 auto 变量的真实类型
+  Designators: true      # 显示结构体初始化名称
