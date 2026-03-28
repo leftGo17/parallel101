@@ -1,13 +1,12 @@
-#include <cstdio>
 #include <cuda_runtime.h>
 
-__global__ void kernel() {
-    printf("Hello, world from GPU!\n");
-}
+#include <cstdio>
+
+__global__ void kernel() { printf("Hello, world from GPU!\n"); }
 
 int main() {
-    kernel<<<3, 1>>>();
-    
+    kernel<<<3, 2>>>();
+
     // 获取最后一个错误
     cudaError_t err = cudaGetLastError();
     if (err != cudaSuccess) {
