@@ -1,21 +1,25 @@
 #include <cstdio>
 #include <cuda_runtime.h>
 
-__device__ void say_hello() {
+__global__ void kernel() {
     printf("Hello, world from GPU!\n");
 }
 
-__host__ void say_hello_host() {
-    printf("Hello, world from CPU!\n");
-}
-
-__global__ void kernel() {
-    say_hello();
-}
-
 int main() {
-    kernel<<<1, 1>>>();
-    cudaDeviceSynchronize();
-    say_hello_host();
+    kernel<<<3, 1>>>();
+    
+    // 获取最后一个错误
+    cudaError_t err = cudaGetLastError();
+    if (err != cudaSuccess) {
+        printf("CUDA Error: %s\n", cudaGetErrorString(err));
+    }
+
+    // 同步
+    err = cudaDeviceSynchronize();
+    if (err != cudaSuccess) {
+        printf("Sync Error: %s\n", cudaGetErrorString(err));
+    }
+
+    printf("Hello, world from CPU!\n");
     return 0;
 }
