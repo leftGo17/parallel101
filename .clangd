@@ -8,5 +8,5 @@ CompileFlags:
     - "-arch=native"       # 防止 clangd 在找不到物理 GPU 时报错
     - "--options-file"     # 移除外部参数文件引用
     - "-forward-unknown-to-host-compiler"
-  Add: 
-      - "--cuda-gpu-arch=sm_100" 
+  Add:
+    - "-I/home/linuxbrew/.linuxbrew/opt/fmt/include"

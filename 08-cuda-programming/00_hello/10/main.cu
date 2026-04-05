@@ -1,5 +1,6 @@
-#include <cstdio>
 #include <cuda_runtime.h>
+
+#include <cstdio>
 
 __host__ __device__ void say_hello() {
 #ifdef __CUDA_ARCH__
@@ -9,9 +10,7 @@ __host__ __device__ void say_hello() {
 #endif
 }
 
-__global__ void kernel() {
-    say_hello();
-}
+__global__ void kernel() { say_hello(); }
 
 int main() {
     kernel<<<1, 1>>>();
