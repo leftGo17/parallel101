@@ -1,6 +1,5 @@
-#include <iostream>
-#include <thread>
 #include <chrono>
+#include <iostream>
 
 int main() {
     auto t0 = std::chrono::steady_clock::now();

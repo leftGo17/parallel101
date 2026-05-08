@@ -10,3 +10,16 @@ CompileFlags:
     - "-forward-unknown-to-host-compiler"
   Add:
     - "-I/home/linuxbrew/.linuxbrew/opt/fmt/include"
+    # - "--cuda-path=/usr/local/cuda"
+    - "-I/usr/local/cuda/include"
+    - "-I/usr/local/cuda/include/cccl"
+    - "-std=c++17"
+
+# ---
+
+# If:
+#   PathMatch: .*\.cu
+# CompileFlags:
+#   Add:
+#     - "-x"
+#     - "cuda"
