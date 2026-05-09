@@ -1,8 +1,6 @@
-#include <iostream>
-#include <string>
+#include <mutex>
 #include <thread>
 #include <vector>
-#include <mutex>
 
 int main() {
     std::vector<int> arr;

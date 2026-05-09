@@ -1,8 +1,7 @@
 #include <iostream>
-#include <string>
+#include <mutex>
 #include <thread>
 #include <vector>
-#include <mutex>
 
 int main() {
     std::vector<int> arr;
@@ -18,7 +17,7 @@ int main() {
             std::unique_lock grd(mtx);
             arr.push_back(2);
             grd.unlock();
-            printf("outside of lock\n");
+            std::cout << "outside of lock" << std::endl;
             // grd.lock();  // 如果需要，还可以重新上锁
         }
     });
